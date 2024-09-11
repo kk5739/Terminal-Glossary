@@ -1,4 +1,4 @@
-# GIT == Git Is Team
+# This is my personal glossary for repository
 
 - [Git 설치하기](#git-설치하기)
 - [Github에 코드 저장하기 - 버전 관리](#github에-코드-저장하기)
