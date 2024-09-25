@@ -1,13 +1,7 @@
 # This is my personal glossary for repository
 
-- [Git 설치하기](#git-설치하기)
-- [Github에 코드 저장하기 - 버전 관리](#github에-코드-저장하기)
-- [Git 변경사항 확인하기](#git-변경사항-확인하기)
-- [Git으로 수정사항 reset하기](#git으로-수정사항-reset하기)
-- [Git Branch를 다루는 방법](#git-branch를-다루는-방법)
-- [Github code versioning](#github-code-versioning)
-- [github에서 협업을 하는 방법](#github에서-협업을-하는-방법)
-- [git playground](http://try.github.io)
+- [Terminal Keywords 및 Glossary정리](#git-설치하기)
+- [수학 개념 정리](#git-변경사항-확인하기)
 
 <br>
 
@@ -15,32 +9,21 @@
 
 <br>
 
-# Git 설치
+# Terminal Keywords 정리
 
-## Git install (Window)
+## 기본적인 용어 정리
 
-1. [Window Git 설치](https://git-scm.com)
+```python
+$ () # Parentheses 
 
-2. "**git bash**"를 데스크탑 검색한 후 실행한다.
+$ {} #
 
-## Git install (mac)
+$ [] #
 
-1. 현재 git version을 확인한다.
-   - `$ git --version`
-2. Homebrew (Mac OS 패키지 관리자)를 설치한다. [링크](https://brew.sh/index_ko)
-3. Homebrew를 이용하여 git을 설치한다.
+$ 
+```
 
-   - `$ brew install git`
 
-4. 설치된 git 정보 확인
-
-   - `$ brew info git`
-     여기서 Dependencies에서 Optiona의 pcre가 (x)로 되어 있다면 pcre도 설치해준다.
-     (`$ brew install pcre`)
-
-5. 설치 후 전과 동일한 버전 정보가 나온 경우 다음을 명령한다.
-
-   - `echo "export PATH=/usr/local/bin:\$PATH" >> ~/.bash_profile`
 
 ## 기본적인 터미널 명령어 정리
 
@@ -66,6 +49,51 @@ $ rm -i myFolder   # 파일 하나하나 물어보고 다 지우기.
 
 $ alias 단축명령어="명령어"
 ```
+
+## 기본적인 코드 정리
+
+```python
+# Get Current Working Directory
+$ import os 
+os.getcwd()
+
+
+```
+
+
+## 수학 개념 정리
+
+1. ℕ (Natural Numbers) : 자연수 {0,1,2,3,4...} but the set of natural numbers is infinite, but infinity itself is not a natural number.
+2. ℤ (Integers) : 정수, This set includes all whole numbers, both positive and negative, as well as zero. Specifically:
+- Positive integers: 1, 2, 3, ...
+- Negative integers: -1, -2, -3, ...
+- Zero: 0
+
+3. ∧ (And) : 앤드 연산자 Represents the logical AND operator, primarily used in logic and set theory. It signifies that two conditions must both be true for the whole statement to be true.
+- If 𝑃 and 𝑄  are two logical statements, 𝑃 ∧ 𝑄 P∧Q means "P AND Q".
+- P∧Q is true only if both 𝑃 and 𝑄 are true; otherwise, it is false.
+
+2. "**git bash**"를 데스크탑 검색한 후 실행한다.
+
+## Git install (mac)
+
+1. 현재 git version을 확인한다.
+   - `$ git --version`
+2. Homebrew (Mac OS 패키지 관리자)를 설치한다. [링크](https://brew.sh/index_ko)
+3. Homebrew를 이용하여 git을 설치한다.
+
+   - `$ brew install git`
+
+4. 설치된 git 정보 확인
+
+   - `$ brew info git`
+     여기서 Dependencies에서 Optiona의 pcre가 (x)로 되어 있다면 pcre도 설치해준다.
+     (`$ brew install pcre`)
+
+5. 설치 후 전과 동일한 버전 정보가 나온 경우 다음을 명령한다.
+
+   - `echo "export PATH=/usr/local/bin:\$PATH" >> ~/.bash_profile`
+
 
 <br>
 
